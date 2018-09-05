@@ -1,3 +1,19 @@
+# Cloud.Mail.Ru Downloader from https://github.com/Geograph-us/Cloud-Mail.Ru-Downloader
+* this is modify version with Ubuntu friendly
+* you need install php, aria2 stuff
+```
+cd `YOUR_DIRECTORY_OF_CLOUD_MAIL_RU_DOWNLOADER`
+ln -s `which aria2c` .
+ls -al 
+lrwxrwxrwx 1 root root    21 Sep  5 16:34 aria2c -> /usr/local/bin/aria2c
+```
+* update your download link into links.txt
+```
+php mail.ru_downloader.php
+```
+* and you will see downloads/ with your files.
+
+
 # Cloud&#64;Mail.Ru Downloader
 
 Многопоточное скачивание из облака [Mail.Ru](http://cloud.mail.ru/) по публичной ссылки. Авторизация в Mail.Ru не требуется.
